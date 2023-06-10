@@ -6,4 +6,4 @@ var greeting = "Hello";
 console.log(greeting, person);
 greeting ="hi";
 person = "james";
-console.log(greeting, person)
+console.log(greeting, person);
