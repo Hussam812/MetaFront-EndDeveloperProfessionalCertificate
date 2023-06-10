@@ -19,8 +19,8 @@ console.log(petDog);            //3
 console.log(petCat);            //4
 
 
-console.log("My pet dog's name is: ", petDog);     // 5
-console.log("My pet cat's name is: ", petCat);    // 6
+console.log("My pet dog's name is:", petDog);     // 5
+console.log("My pet cat's name is:", petCat);    // 6
 
 
 var catSound = "purr";                //7
@@ -28,3 +28,7 @@ var dogSound = "woof";                //8
 
 console.log(petDog, "say's", dogSound);    // 9
 console.log(petCat, "say's", catSound);   // 10
+
+
+catSound = "meow";   // 11
+console.log(petCat, "now say's", catSound); // 12
